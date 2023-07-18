@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-width: 400px;
+    background-color: #f7f7f7;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    border: 2px solid #4d8c6d;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button {
+    background: #4d8c6d;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background 0.3s ease;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+    button:hover {
+        background: #38664d;
+    }
+
+#delete-btn {
+    background: white;
+    color: #4d8c6d;
+    border: 2px solid #4d8c6d;
+    transition: background 0.3s ease;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#mohammad {
+    font-size: 30px;
+    color: #4d8c6d;
+    font-weight: bold;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+    #delete-btn:hover {
+        background: #f7f7f7;
+    }
+
+ul {
+    margin-top: 20px;
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    margin-top: 5px;
+}
+
+a {
+    color: #4d8c6d;
+    text-decoration: none;
+}
+
+    a:hover {
+        text-decoration: underline;
+    }
